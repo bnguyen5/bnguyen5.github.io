@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm Bang, a third-year Ph.D. student (2022-now) in the Computer Science and Engineering department at the University of Notre Dame. I am a fortunate to be member of the _Data Mining towards Decision Making_ (DM2) Lab, advised and directed by [Dr. Meng Jiang](http://www.meng-jiang.com/)
+Hello! I'm Bang, a third-year Ph.D. student (2022-now) in the Computer Science and Engineering department at the University of Notre Dame. I'm fortunate to be a member of the _Data Mining towards Decision Making_ (DM2) Lab, where I am advised by [Dr. Meng Jiang](http://www.meng-jiang.com/)
 
 Prior to my Ph.D., I obtained my Bachelor's Degree from The College of Wooster in 2022 with a major in Computer Science and a double minor in Data Science and Communication Studies.
 
@@ -15,15 +15,15 @@ With a strong interest in Natural Language Processing (NLP) and Machine Learning
 
 # What's new
 
-<table style="width:100%; border-collapse: collapse;">
+<table style="width:100%;">
   <tr style="background-color: #ffffff;">
-    <td style="padding: 8px;">Feb 2025</td>
-    <td style="padding: 8px;">Check out our latest paper: [QG-SMS: Enhancing Test Item Analysis via Student Modeling and Simulation](https://arxiv.org/abs/2503.05888)
+    <td style="padding: 2px;">Feb 2025</td>
+    <td style="padding: 2px;">Check out our latest paper: <a href="https://arxiv.org/abs/2503.05888" target="_blank">QG-SMS: Enhancing Test Item Analysis via Student Modeling and Simulation</a>
 </td>
   </tr>
   <tr style="background-color: #f9f9f9;">
-    <td style="padding: 8px;">Sep 2024</td>
-    <td style="padding: 8px;">Our paper [Reference-based Metrics Disprove Themselves in Question Generation](https://arxiv.org/abs/2403.12242) has been accepted to EMNLP 2024 Findings. See you in Miami!</td>
+    <td style="padding: 2px;">Sep 2024</td>
+    <td style="padding: 2px;">Our paper <a href="https://arxiv.org/abs/2403.12242" target="_blank">Reference-based Metrics Disprove Themselves in Question Generation</a> has been accepted to EMNLP 2024 Findings. See you in Miami!</td>
   </tr>
 </table>
 
