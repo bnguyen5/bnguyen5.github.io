@@ -15,7 +15,7 @@ With a strong interest in Natural Language Processing (NLP) and Machine Learning
 
 # What's new
 
-<table style="width:100%;">
+<table style="width:100%; border: none; border-spacing: 0; border-collapse: collapse;">
   <tr style="background-color: #ffffff;">
     <td style="padding: 2px;">Feb 2025</td>
     <td style="padding: 2px;">Check out our latest paper: <a href="https://arxiv.org/abs/2503.05888" target="_blank">QG-SMS: Enhancing Test Item Analysis via Student Modeling and Simulation</a>
