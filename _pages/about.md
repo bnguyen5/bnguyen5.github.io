@@ -15,15 +15,15 @@ With a strong interest in Natural Language Processing (NLP) and Machine Learning
 
 # What's new
 
-<table style="width:100%; border: none; border-spacing: 0; border-collapse: collapse;">
+<table style="width:100%; border: none; border-spacing: 0; border-collapse: collapse; font: inherit;">
   <tr style="background-color: #ffffff;">
-    <td style="padding: 2px;">Feb 2025</td>
-    <td style="padding: 2px;">Check out our latest paper: <a href="https://arxiv.org/abs/2503.05888" target="_blank">QG-SMS: Enhancing Test Item Analysis via Student Modeling and Simulation</a>
+    <td style="padding: 2px; border: none;">Feb 2025</td>
+    <td style="padding: 2px; border: none;">Check out our latest paper: <a href="https://arxiv.org/abs/2503.05888" target="_blank">QG-SMS: Enhancing Test Item Analysis via Student Modeling and Simulation</a>
 </td>
   </tr>
   <tr style="background-color: #f9f9f9;">
-    <td style="padding: 2px;">Sep 2024</td>
-    <td style="padding: 2px;">Our paper <a href="https://arxiv.org/abs/2403.12242" target="_blank">Reference-based Metrics Disprove Themselves in Question Generation</a> has been accepted to EMNLP 2024 Findings. See you in Miami!</td>
+    <td style="padding: 2px; border: none;">Sep 2024</td>
+    <td style="padding: 2px; border: none;">Our paper <a href="https://arxiv.org/abs/2403.12242" target="_blank">Reference-based Metrics Disprove Themselves in Question Generation</a> has been accepted to EMNLP 2024 Findings. See you in Miami!</td>
   </tr>
 </table>
 
