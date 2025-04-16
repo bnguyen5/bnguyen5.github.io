@@ -1,6 +1,7 @@
 ---
 title: "Embedding Mental Health Discourse for Community Recommendation"
 collection: publications
+authors: "Hy Dang*, Bang Nguyen*, Noah Ziems, Meng Jiang"
 category: conferences
 permalink: /publication/2023-07-08-embedding-community-discourse
 excerpt: "With so many online mental health groups, finding the right one can be hard. The paper explores embedding discourse from subreddits into a hybrid recommendation model, showing that combining collaborative and content-based methods yields stronger, more interpretable mental health support suggestions."

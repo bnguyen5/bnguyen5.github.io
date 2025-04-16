@@ -1,0 +1,35 @@
+<div class="publication-entry" style="display: flex; margin-bottom: 1.5em; gap: 1em; align-items: flex-start;">
+    <!-- Venue badge -->
+    <div style="width: 20%;">
+      <span class="btn" style="cursor: default; background-color: #e0e0e0;">
+        {{ pub.venue | default: "Unknown Venue" }}
+      </span>
+    </div>
+  
+    <!-- Main content -->
+    <div style="width: 80%;">
+      <h3 style="margin-top: 0;">{{ pub.title }}</h3>
+      
+      {% if pub.authors %}
+        <p><strong>Authors:</strong> {{ pub.authors }}</p>
+      {% endif %}
+      
+      {% if pub.excerpt %}
+        <p>{{ pub.excerpt }}</p>
+      {% endif %}
+  
+      <!-- External links -->
+      <div style="margin-top: 0.5em;">
+        {% if pub.paperurl %}
+          <a class="btn btn--primary" href="{{ pub.paperurl }}" target="_blank">View Paper</a>
+        {% endif %}
+        {% if pub.slidesurl %}
+          <a class="btn btn--primary" href="{{ pub.slidesurl }}" target="_blank">Slides</a>
+        {% endif %}
+        {% if pub.link %}
+          <a class="btn btn--primary" href="{{ pub.link }}" target="_blank">External Link</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  
