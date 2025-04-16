@@ -1,11 +1,11 @@
 ---
 title: "Embedding Mental Health Discourse for Community Recommendation"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+category: conferences
+permalink: /publication/2023-07-08-embedding-community-discourse
 excerpt: "With so many online mental health groups, finding the right one can be hard. The paper explores embedding discourse from subreddits into a hybrid recommendation model, showing that combining collaborative and content-based methods yields stronger, more interpretable mental health support suggestions."
 date: 2023-07-08
 venue: "Workshop on Computational Approaches to Discourse (CODI)"
-# slidesurl: "http://academicpages.github.io/files/slides1.pdf"
 paperurl: "https://aclanthology.org/2023.codi-1.22/"
 citation: "Hy Dang, Bang Nguyen, Noah Ziems, and Meng Jiang. 2023. Embedding Mental Health Discourse for Community Recommendation. In Proceedings of the 4th Workshop on Computational Approaches to Discourse (CODI 2023), pages 163–172, Toronto, Canada. Association for Computational Linguistics."
 ---
