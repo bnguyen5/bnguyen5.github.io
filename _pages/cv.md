@@ -9,56 +9,43 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+# Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- Ph.D in Computer Science and Engineering, University of Notre Dame
+  - 2022 - present
+  - Advised by [Dr. Meng Jiang](http://www.meng-jiang.com/)
+- B.A. in Computer Science, The College of Wooster
+  - 2018 - 2022
+  - GPA: 4.0/4.0
+  - Summa cum laude, Phi Beta Kappa Member
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+# Experience
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- Graduate Research Assistant
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  - University of Notre Dame
+  - June 2022 - present
+  - Work on AI for education and research
+
+- Applied Research Consultant
+  - Goodyear Tire and Rubber
+  - May 2021 - Jul 2021
+  - Worked on Image Segmentation for quality control
+
+# Teaching
+
+- Graduate Teaching Assistant
+
+  - University of Notre Dame
+  - June 2022 - May 2023
+  - Assisted in teaching two core courses: _Algorithm Analysis_ and _Software Engineering Security_.
+
+- Data Science Zone Intern
+  - College of Wooster
+  - Aug 2020 - May 2022
+  - Assisted professors in designing and teaching three core courses: _Introduction to Data Science_, _Introduction to Statistics_, and _Data Visualization_.
+
+# Service and leadership
+
+- Reviewer: ACL ARR Feb 2025, Knowledge NLP-ACL'24, Knowledge NLP-KDD'23, TKDE'23
+- Conference organizer: _Midwest Speech and Language Days (MSLD) 2025_.
