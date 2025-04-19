@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Bang Nguyen (Nguyễn Văn Bàng)"
+title: "Welcome"
 author_profile: true
 redirect_from:
   - /about/
