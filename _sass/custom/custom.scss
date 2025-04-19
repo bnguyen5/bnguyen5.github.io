@@ -1,0 +1,43 @@
+// Custom color palette
+
+$primary-color: #078d70;
+$primary-light: #98e8c1;
+$background-color: #ffffff;
+$accent-color: #7bade2;
+$dark-color: #3d1a78;
+
+// Override Minimal Mistakes colors
+$link-color: $primary-color;
+$btn-color: $primary-color;
+$btn-hover-color: $accent-color;
+$body-background-color: $background-color;
+$sidebar-color: $dark-color;
+$header-background-color: $primary-color;
+// Force button base styling
+.btn,
+.btn:visited {
+  background-color: #3d1a78 !important;  /* your primary color */
+  color: #ffffff !important;
+  border: none !important;
+  text-decoration: none !important;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #7bade2 !important;  /* your accent color */
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+/* Customize venue badge color only */
+.venue-badge {
+    background-color: #98e8c1 !important;  /* soft green */
+    color: #3d1a78 !important;            /* dark text for contrast */
+    pointer-events: none;                 /* make it non-clickable */
+  }
+  
+/* Prevent hover from changing it */
+.venue-badge:hover {
+background-color: #98e8c1 !important;
+color: #3d1a78 !important;
+}

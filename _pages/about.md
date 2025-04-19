@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Bang Nguyen (Bàng Nguyễn)"
+title: "Bang Nguyen (Nguyễn Văn Bàng)"
 author_profile: true
 redirect_from:
   - /about/
@@ -31,3 +31,10 @@ With a strong interest in Natural Language Processing (NLP) and Machine Learning
     <td style="padding: 2px; border: none;">Our paper <a href="https://arxiv.org/abs/2403.12242" target="_blank">Reference-based Metrics Disprove Themselves in Question Generation</a> has been accepted to EMNLP 2024 Findings. See you in Miami!</td>
   </tr>
 </table>
+
+# Publications
+
+{% assign pubs = site.publications | sort: 'date' | reverse %}
+{% for pub in pubs %}
+{% include publication-card.html pub=pub %}
+{% endfor %}

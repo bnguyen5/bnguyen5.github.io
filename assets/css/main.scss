@@ -39,5 +39,21 @@
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands",
-    "vendor/magnific-popup/magnific-popup"
+    "vendor/magnific-popup/magnific-popup",
+
+    "custom/custom"
 ;
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+h1, h2, h3, h4, h5, h6,
+button, .btn, .site-title, .nav, .page__title {
+  font-family: inherit !important;
+}
+h1, h2, h3 {
+  color: $primary-color;
+}
+// h1 {
+//   font-family: "Libre Baskerville", serif;
+// }
