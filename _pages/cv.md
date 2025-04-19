@@ -7,7 +7,9 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<!-- {% include base_path %} -->
+
+<a class="btn btn--primary" href="/files/BangNguyen_CV_0419.pdf" target="_blank">📄 Download Full CV</a>
 
 # Education
 
