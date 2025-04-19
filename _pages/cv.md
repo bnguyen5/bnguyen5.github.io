@@ -1,10 +1,12 @@
 ---
-layout: single
+layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+header:
+  hide_title: true # ← This is the key line
 ---
 
 <!-- {% include base_path %} -->
