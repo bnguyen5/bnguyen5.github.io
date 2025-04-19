@@ -57,3 +57,17 @@ h1, h2, h3 {
 // h1 {
 //   font-family: "Libre Baskerville", serif;
 // }
+
+.site-nav,
+.page__title,
+.page__meta,
+.site-title,
+.author__name,
+.author__bio,
+.author__urls,
+.btn,
+.masthead,
+.nav__items,
+.footer {
+  font-family: inherit !important;
+}
