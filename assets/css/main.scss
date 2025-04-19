@@ -64,15 +64,26 @@ h1, h2, h3 {
 // }
 
 .site-nav,
+.site-title,
 .page__title,
 .page__meta,
-.site-title,
 .author__name,
 .author__bio,
 .author__urls,
+.author__urls-wrapper,
+.author__urls a,
+.author__avatar,
+footer,
+footer a,
+footer .location,
+footer .affiliation,
+footer .social-icons,
+.nav__items,
+.nav__items a,
 .btn,
 .masthead,
-.nav__items,
-.footer {
+header,
+h1, h2, h3, h4, h5, h6,
+p, a, span, li, label {
   font-family: inherit !important;
 }
