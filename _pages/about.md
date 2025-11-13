@@ -9,15 +9,20 @@ redirect_from:
 
 # About me
 
-Hello! I'm Bang, a third-year Ph.D. student (2022-now) in the Computer Science and Engineering department at the University of Notre Dame. I'm fortunate to be a member of the _Data Mining towards Decision Making_ (DM2) Lab, where I am advised by [Dr. Meng Jiang](http://www.meng-jiang.com/).
+Hello! I'm Bang, a Ph.D. candidate (2022-now) in the Computer Science and Engineering department at the University of Notre Dame. I'm fortunate to be a member of the _Data Mining towards Decision Making_ (DM2) Lab, where I am advised by [Dr. Meng Jiang](http://www.meng-jiang.com/).
 
 I obtained my Bachelor's Degree from The College of Wooster in 2022 with a major in Computer Science and a double minor in Data Science and Communication Studies.
 
-With a strong interest in Natural Language Processing (NLP) and Machine Learning, my research focuses on simulation-based evaluation of NLP applications. I am currently exploring how simulated classroom learning can facilitate the development and evaluation of AI tutors. My work aims to improve how AI systems can align with human behaviors and values, ensuring that they support users in achieving their goals in a responsible, efficient, and impactful way.
+With a strong interest in Natural Language Processing (NLP) and Machine Learning, my research integrates the development of effective AI applications with realistic, end-to-end evaluation. I am exploring use-case-driven approaches where insights from simulated user interactions and targeted benchmarks directly inform the model development and refinement process. This tight feedback loop between building and testing ensures the development of more reliable, efficient, and aligned AI systems.
 
 # What's new
 
 <table style="width:100%; border-collapse: separate; border-spacing: 0 6px; border: none; font: inherit;">
+ <tr style="background-color: #ffffff;">
+    <td style="padding: 2px; border: none;"><strong>Nov 2025</strong></td>
+    <td style="padding: 2px; border: none;">Passed my oral candidacy exam. I am now a PhD candidate!
+    </td>
+  </tr>
   <tr style="background-color: #f9f9f9;">
     <td style="padding: 2px; border: none;"><strong>May 2025</strong></td>
     <td style="padding: 2px; border: none;">Our paper <a href="https://arxiv.org/abs/2503.05888" target="_blank">QG-SMS: Enhancing Test Item Analysis via Student Modeling and Simulation</a> has been accepted to ACL 2025 Main!
