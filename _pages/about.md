@@ -44,7 +44,7 @@ With a strong interest in Natural Language Processing (NLP) and Machine Learning
   </tr>
 </table>
 
-# Publications
+# First-Author Publications
 
 {% assign pubs = site.publications | sort: 'date' | reverse %}
 {% for pub in pubs %}
