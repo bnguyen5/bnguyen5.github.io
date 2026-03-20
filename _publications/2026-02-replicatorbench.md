@@ -1,5 +1,5 @@
 ---
-title: "QG-SMS: Enhancing Test Item Analysis via Student Modeling and Simulation"
+title: "ReplicatorBench: Benchmarking LLM Agents for Replicability in Social and Behavioral Sciences"
 collection: publications
 authors: "Bang Nguyen, Dominik Soós, Qian Ma, Rochana R. Obadage, Zack Ranjan, Sai Koneru, Timothy M. Errington, Shakhlo Nematova, Sarah Rajtmajer, Jian Wu, Meng Jiang"
 category: conferences
