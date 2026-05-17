@@ -43,10 +43,6 @@ With a strong interest in Natural Language Processing (NLP) and Machine Learning
     <td style="padding: 2px; border: none;">DM2 is organizing <a href="https://nlp.nd.edu/msld25/" target="_blank">Midwest Speech and Language Days (MSLD) 2025</a>. See you in Notre Dame!
     </td>
   </tr>
-  <tr style="background-color: #f9f9f9;">
-    <td style="padding: 2px; border: none;"><strong>Sep 2024</strong></td>
-    <td style="padding: 2px; border: none;">Our paper <a href="https://arxiv.org/abs/2403.12242" target="_blank">Reference-based Metrics Disprove Themselves in Question Generation</a> has been accepted to EMNLP 2024 Findings. See you in Miami!</td>
-  </tr>
 </table>
 
 # First-Author Publications
