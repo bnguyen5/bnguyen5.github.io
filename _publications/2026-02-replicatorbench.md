@@ -6,6 +6,6 @@ category: conferences
 permalink: /publication/2026-02-replicatorbench
 excerpt: "Rerunning code is easy, but replicating a scientific claim with new data is where AI agents currently hit a wall. Our new benchmark, ReplicatorBench, exposes the gap between an agent's ability to run experiments and its ability to actually retrieve the resources necessary for real-world scientific validation."
 date: 2026-02-11
-venue: "KDD 2026 AI4Sciences"
+venue: "KDD AI4Sciences"
 paperurl: "https://arxiv.org/abs/2602.11354"
 ---
