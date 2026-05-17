@@ -18,6 +18,11 @@ With a strong interest in Natural Language Processing (NLP) and Machine Learning
 # What's new
 
 <table style="width:100%; border-collapse: separate; border-spacing: 0 6px; border: none; font: inherit;">
+ <tr style="background-color: #ffffff;">
+    <td style="padding: 2px; border: none;"><strong>May 2026</strong></td>
+    <td style="padding: 2px; border: none;">Our <a href="https://arxiv.org/abs/2602.11354" target="_blank">ReplicatorBench</a> paper has been accepted to KDD 2026 AI for Sciences Track!
+    </td>
+  </tr>
  <tr style="background-color: #f9f9f9;">
     <td style="padding: 2px; border: none;"><strong>Feb 2026</strong></td>
     <td style="padding: 2px; border: none;">Check out our latest paper: <a href="https://arxiv.org/abs/2602.11354" target="_blank">ReplicatorBench: Benchmarking LLM Agents for Replicability in Social and Behavioral Sciences</a>
