@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Natural language processing</title>
+  <rect width="64" height="64" rx="14" fill="#3d1a78"/>
+  <path d="M13 14h38a7 7 0 0 1 7 7v20a7 7 0 0 1-7 7H31L19 57v-9h-6a7 7 0 0 1-7-7V21a7 7 0 0 1 7-7Z" fill="#98e8c1"/>
+  <circle cx="22" cy="31" r="3.5" fill="#3d1a78"/>
+  <circle cx="32" cy="31" r="3.5" fill="#3d1a78"/>
+  <circle cx="42" cy="31" r="3.5" fill="#3d1a78"/>
+</svg>

@@ -1,16 +1,16 @@
-<div class="publication-entry" style="display: flex; margin-bottom: 1.5em; gap: 1em; align-items: flex-start;">
+<div class="publication-entry">
     <!-- Venue badge -->
-    <div style="width: 10%;">
+    <div class="publication-venue">
         {% assign abbr = site.data.venue_abbr[pub.venue] | default: pub.venue %}
         {% assign year = pub.date | date: "%Y" %}
         <span class="btn venue-badge">
         {{ abbr }} {{ year }}
         </span>
     </div>
-  
+
   
     <!-- Main content -->
-    <div style="width: 90%;">
+    <div class="publication-content">
       <h3 style="margin-top: 0;">{{ pub.title }}</h3>
       
       {% if pub.authors %}
@@ -35,4 +35,3 @@
       </div>
     </div>
   </div>
-  
