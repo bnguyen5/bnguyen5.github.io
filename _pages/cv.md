@@ -11,7 +11,7 @@ header:
 
 <!-- {% include base_path %} -->
 
-<a class="btn btn--primary" href="/files/BangNguyen_CV_0419.pdf" target="_blank">📄 Download Full CV</a>
+<a class="btn btn--primary" href="/files/BangNguyen_CV_20260626.pdf" target="_blank">📄 Download Full CV</a>
 
 # Education
 
@@ -22,11 +22,11 @@ header:
   - 2018 - 2022
   - GPA: 4.0/4.0
   - Summa cum laude, Phi Beta Kappa Member
+  - Minors: Data Science, Communication Studies
 
 # Experience
 
 - Graduate Research Assistant
-
   - University of Notre Dame
   - June 2022 - present
   - Work on AI for education and research
@@ -38,11 +38,13 @@ header:
 
 # Teaching
 
-- Graduate Teaching Assistant
-
+- Instructor of Record
   - University of Notre Dame
-  - June 2022 - May 2023
-  - Assisted in teaching two core courses: _Algorithm Analysis_ and _Software Engineering Security_.
+  - Appointed to teach Natural Language Processing (NLP) course in fall 2026; responsible for curriculum design and instruction.
+
+- Graduate Teaching Assistant
+  - University of Notre Dame
+  - Assisted in teaching three courses: _Algorithm Analysis_ (Fall 2022), _Software Engineering Security_ (Spring 2023), and _Large Language Models_ (Fall 2025).
 
 - Data Science Zone Intern
   - College of Wooster
