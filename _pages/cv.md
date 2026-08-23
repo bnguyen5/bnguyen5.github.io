@@ -18,6 +18,8 @@ header:
 - Ph.D in Computer Science and Engineering, University of Notre Dame
   - 2022 - present
   - Advised by [Dr. Meng Jiang](http://www.meng-jiang.com/)
+- M.S. in Computer Science and Engineering, University of Notre Dame
+  - January 2026
 - B.A. in Computer Science, The College of Wooster
   - 2018 - 2022
   - GPA: 4.0/4.0

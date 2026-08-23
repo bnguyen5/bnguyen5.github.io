@@ -11,9 +11,13 @@ redirect_from:
 
 Hello! I'm Bang, a Ph.D. candidate (2022-now) in the Computer Science and Engineering department at the University of Notre Dame. I'm fortunate to be a member of the _Data Mining towards Decision Making_ (DM2) Lab, where I am advised by [Dr. Meng Jiang](http://www.meng-jiang.com/).
 
-I obtained my Bachelor's Degree from The College of Wooster in 2022 with a major in Computer Science and a double minor in Data Science and Communication Studies.
-
 With a strong interest in Natural Language Processing (NLP) and Machine Learning, my research integrates the development of effective AI applications with realistic, end-to-end evaluation. I am exploring use-case-driven approaches where insights from simulated user interactions and targeted benchmarks directly inform the model development and refinement process. This tight feedback loop between building and testing ensures the development of more reliable, efficient, and aligned AI systems.
+
+# Education
+
+- **M.S. in Computer Science and Engineering**, University of Notre Dame, January 2026
+- **B.A. in Computer Science**, The College of Wooster, 2022
+  - Double minor in Data Science and Communication Studies
 
 # What's new
 
