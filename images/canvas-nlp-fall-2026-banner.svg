@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+  <title id="title">Natural Language Processing, CSE 40657, Fall 2026</title>
+  <desc id="desc">Purple and green course banner with multilingual greetings.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3d1a78"/>
+      <stop offset="0.58" stop-color="#5733a0"/>
+      <stop offset="1" stop-color="#078d70"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="500" rx="32" fill="url(#background)"/>
+  <g fill="#fff" opacity="0.12" font-family="Arial, Helvetica, sans-serif" font-weight="700">
+    <text x="1050" y="105" font-size="58">Hello</text>
+    <text x="1295" y="90" font-size="42">Bonjour</text>
+    <text x="1160" y="190" font-size="52">Xin chào</text>
+    <text x="1390" y="220" font-size="64">你好</text>
+    <text x="1075" y="300" font-size="46">Hola</text>
+    <text x="1310" y="340" font-size="48">नमस्ते</text>
+    <text x="1120" y="425" font-size="54">مرحبًا</text>
+  </g>
+  <g fill="#fff" font-family="Arial, Helvetica, sans-serif">
+    <text x="110" y="115" font-size="30" font-weight="700" letter-spacing="4">CSE 40657 · FALL 2026</text>
+    <text x="110" y="245" font-size="76" font-weight="700">Natural Language Processing</text>
+    <text x="110" y="330" font-size="32" opacity="0.9">Foundations and modern methods for understanding</text>
+    <text x="110" y="375" font-size="32" opacity="0.9">and generating human language</text>
+    <text x="110" y="445" font-size="24" font-weight="700" opacity="0.8">Bang Nguyen · University of Notre Dame</text>
+  </g>
+</svg>
