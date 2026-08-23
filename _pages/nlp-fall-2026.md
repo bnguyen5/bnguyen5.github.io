@@ -229,6 +229,11 @@ favicon: /images/favicon-nlp.svg
           </table>
         </div>
 
+        <ul class="course-policy-list">
+          <li><strong>Homework:</strong> Implement all assigned algorithms from scratch. Generative AI may be used for conceptual clarification, but it may not generate, complete, or reproduce assignment solutions or submitted code.</li>
+          <li><strong>Course project:</strong> Generative AI may be used for data-processing scripts and debugging under <strong>Resources → Cite</strong>. Each PM1–PM4 submission must include an AI-use statement, even if no AI was used. Students remain responsible for, and must be prepared to explain and defend, all submitted code and writing.</li>
+        </ul>
+
         <p>See the <a href="https://cse.nd.edu/undergraduate/cse-guide-to-the-honor-code/" target="_blank" rel="noopener">CSE Guide to the Honor Code</a> for definitions of the above terms.</p>
         <p>If an instructor sees behavior that is, in their judgement, academically dishonest, they are required to file either an Honor Code Violation Report or a formal report to the College of Engineering Honesty Committee.</p>
       </article>
