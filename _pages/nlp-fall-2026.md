@@ -6,6 +6,9 @@ author_profile: false
 course_page: true
 hide_masthead: true
 favicon: /images/favicon-nlp.svg
+day1_slides_url: "https://docs.google.com/presentation/d/1xP-5uIgFIFxVcv0wjKJSTZDZLe2EBqt80B1mO3-hwT0/edit?usp=sharing"
+day2_slides_url: "https://docs.google.com/presentation/d/1IBARWiW3jb8M6kRoNMGRdU_n6bHF4Ft5rzF69rQA8ao/edit?usp=sharing"
+pm1_description_url: "https://docs.google.com/document/d/11qZpMnT9W837qiWsfr5sR6l8rXaI7J0xmVFmOfPDXbI/edit?usp=sharing"
 ---
 
 <div class="course-page">
@@ -41,8 +44,8 @@ favicon: /images/favicon-nlp.svg
     </div>
     <div class="course-fact">
       <span>Office hours</span>
-      <span><strong>Time:</strong> TBD</span>
-      <span><strong>Location</strong>: TBD</span>
+      <span><strong>Time:</strong> Monday 1-2 PM; Friday 1-3 PM</span>
+      <span><strong>Location</strong>: 313 Cushing</span>
     </div>
     <div class="course-fact">
       <span>Relevant platforms</span>
@@ -119,8 +122,8 @@ favicon: /images/favicon-nlp.svg
           </tr>
         </thead>
         <tbody>
-          <tr class="course-week-start"><td rowspan="3"><strong>1</strong><small>Overview</small></td><td>Mon., Aug. 24</td><td><strong>Welcome and syllabus</strong></td><td>—</td><td>—</td></tr>
-          <tr><td>Wed., Aug. 26</td><td><strong>NLP tasks and  ML foundations</strong></td><td>—</td><td>—</td></tr>
+          <tr class="course-week-start"><td rowspan="3"><strong>1</strong><small>Overview</small></td><td>Mon., Aug. 24</td><td><strong>Welcome and syllabus</strong></td><td>{% if page.day1_slides_url != "" %}<a class="course-tag course-tag--slides" href="{{ page.day1_slides_url }}" target="_blank" rel="noopener">W1D1</a>{% else %}<span class="course-tag course-tag--slides">W1D1</span>{% endif %}</td><td>—</td></tr>
+          <tr><td>Wed., Aug. 26</td><td><strong>NLP tasks and ML foundations</strong></td><td>{% if page.day2_slides_url != "" %}<a class="course-tag course-tag--slides" href="{{ page.day2_slides_url }}" target="_blank" rel="noopener">W1D2</a>{% else %}<span class="course-tag course-tag--slides">W1D2</span>{% endif %}</td><td>—</td></tr>
           <tr><td>Fri., Aug. 28</td><td><strong>Words and tokenization</strong></td><td><a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/2.pdf" target="_blank" rel="noopener">SLP C2 (sections 2.1–2.4)</a></td><td>—</td></tr>
 
           <tr class="course-week-start"><td rowspan="3"><strong>2</strong><small>Language models</small></td><td>Mon., Aug. 31</td><td><strong>N-gram language models</strong></td><td>
@@ -129,7 +132,7 @@ favicon: /images/favicon-nlp.svg
 
 </td><td>—</td></tr>
           <tr><td>Wed., Sept. 2</td><td><strong>Evaluation</strong></td><td>—</td><td>—</td></tr>
-          <tr><td>Fri., Sept. 4</td><td><strong>Neural networks</strong></td><td>—</td><td><strong>Project proposal (PM1)</strong><small>Due Sept. 4</small></td></tr>
+          <tr><td>Fri., Sept. 4</td><td><strong>Neural networks</strong></td><td>—</td><td>{% if page.pm1_description_url != "" %}<a href="{{ page.pm1_description_url }}" target="_blank" rel="noopener"><strong>Project proposal (PM1)</strong></a>{% else %}<strong>Project proposal (PM1)</strong>{% endif %}<small>Due Sept. 4</small></td></tr>
 
           <tr class="course-week-start course-roadmap"><td>3</td><td>Sept. 7–11</td><td><strong>Neural language models</strong></td><td>—</td><td>—</td></tr>
           <tr class="course-week-start course-roadmap"><td>4</td><td>Sept. 14–18</td><td><strong>POS tagging and parsing</strong></td><td>—</td><td><strong>Homework 1</strong></td></tr>
@@ -149,7 +152,7 @@ favicon: /images/favicon-nlp.svg
           <tr class="course-break"><td>—</td><td>Nov. 25–29</td><td><strong>Thanksgiving holiday</strong></td><td>—</td><td>—</td></tr>
 
           <tr class="course-week-start course-roadmap"><td>14</td><td>Nov. 30–Dec. 4</td><td><strong>Multilingual and low-resource NLP</strong></td><td>—</td><td>—</td></tr>
-          <tr class="course-week-start"><td rowspan="3">15</td><td>Mon., Dec. 7</td><td><strong>Poster session</strong> - joint evening session with CSE60556 <em>Large Language Model</em>; pizza and beverages provided. The regular daytime class may be canceled; details TBA.</td><td>—</td><td><strong>Poster (PM3)</strong><small>Due Dec. 7</small></td></tr>
+          <tr class="course-week-start"><td rowspan="3">15</td><td>Mon., Dec. 7</td><td><strong>Poster session</strong> - joint evening session with CSE60556 <em>Large Language Model</em>; pizza and beverages provided. The regular daytime class will be canceled; details TBA.</td><td>—</td><td><strong>Poster (PM3)</strong><small>Due Dec. 7</small></td></tr>
           <tr><td>Wed., Dec. 9</td><td><strong>Final report working session</strong></td><td>—</td><td>—</td></tr>
           <tr class="course-reading-day"><td>Thu., Dec. 10</td><td><strong>Reading days begin</strong></td><td>—</td><td>—</td></tr>
 
