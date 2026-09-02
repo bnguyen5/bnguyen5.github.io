@@ -9,7 +9,7 @@ favicon: /images/favicon-nlp.svg
 day1_slides_url: "https://docs.google.com/presentation/d/1xP-5uIgFIFxVcv0wjKJSTZDZLe2EBqt80B1mO3-hwT0/edit?usp=sharing"
 day2_slides_url: "https://docs.google.com/presentation/d/1IBARWiW3jb8M6kRoNMGRdU_n6bHF4Ft5rzF69rQA8ao/edit?usp=sharing"
 day3_slides_url: "https://docs.google.com/presentation/d/1t8-NBW3OYgpLPWZcqO9z-ze2nxIhf_CwOPM-4FbQFRw/edit?usp=sharing"
-w2d1_slides_url: "https://docs.google.com/presentation/d/1SP3gUsdDbn7Tfk4sJUz0zkdULKu60pDgoh3eEi-mxFY/edit?usp=sharing"
+w2_slides_url: "https://docs.google.com/presentation/d/1SP3gUsdDbn7Tfk4sJUz0zkdULKu60pDgoh3eEi-mxFY/edit?usp=sharing"
 pm1_description_url: "https://docs.google.com/document/d/11qZpMnT9W837qiWsfr5sR6l8rXaI7J0xmVFmOfPDXbI/edit?usp=sharing"
 ---
 
@@ -128,8 +128,8 @@ pm1_description_url: "https://docs.google.com/document/d/11qZpMnT9W837qiWsfr5sR6
           <tr><td>Wed., Aug. 26</td><td><strong>NLP tasks and ML foundations</strong></td><td>{% if page.day2_slides_url != "" %}<a class="course-tag course-tag--slides" href="{{ page.day2_slides_url }}" target="_blank" rel="noopener">W1D2</a>{% else %}<span class="course-tag course-tag--slides">W1D2</span>{% endif %}</td><td>—</td></tr>
           <tr><td>Fri., Aug. 28</td><td><strong>Words and tokenization</strong></td><td>{% if page.day3_slides_url != "" %}<a class="course-tag course-tag--slides" href="{{ page.day3_slides_url }}" target="_blank" rel="noopener">W1D3</a>{% else %}<span class="course-tag course-tag--slides">W1D3</span>{% endif %} <a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/2.pdf" target="_blank" rel="noopener">SLP C2 (sections 2.1–2.4)</a></td><td>—</td></tr>
 
-          <tr class="course-week-start"><td rowspan="3"><strong>2</strong><small>Language models</small></td><td>Mon., Aug. 31</td><td><strong>N-gram language models</strong></td><td>{% if page.w2d1_slides_url != "" %}<a class="course-tag course-tag--slides" href="{{ page.w2d1_slides_url }}" target="_blank" rel="noopener">W2D1</a>{% else %}<span class="course-tag course-tag--slides">W2D1</span>{% endif %} <a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/3.pdf" target="_blank" rel="noopener">SLP C3</a></td><td>—</td></tr>
-          <tr><td>Wed., Sept. 2</td><td><strong>Evaluation</strong></td><td>—</td><td>—</td></tr>
+          <tr class="course-week-start"><td rowspan="3"><strong>2</strong><small>Language models</small></td><td>Mon., Aug. 31</td><td><strong>N-gram language models</strong></td><td>{% if page.w2_slides_url != "" %}<a class="course-tag course-tag--slides" href="{{ page.w2_slides_url }}" target="_blank" rel="noopener">W2 N-grams</a>{% else %}<span class="course-tag course-tag--slides">W2 N-grams</span>{% endif %} <a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/3.pdf" target="_blank" rel="noopener">SLP C3</a></td><td>—</td></tr>
+          <tr><td>Wed., Sept. 2</td><td><strong>N-gram (cont) and LM evaluation</strong></td><td>{% if page.w2_slides_url != "" %}<a class="course-tag course-tag--slides" href="{{ page.w2_slides_url }}" target="_blank" rel="noopener">W2 N-grams</a>{% else %}<span class="course-tag course-tag--slides">W2 N-grams</span>{% endif %}</td><td>—</td></tr>
           <tr><td>Fri., Sept. 4</td><td><strong>Neural networks</strong></td><td><a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/6.pdf" target="_blank" rel="noopener">SLP C6 (skip §6.4)</a></td><td>{% if page.pm1_description_url != "" %}<a href="{{ page.pm1_description_url }}" target="_blank" rel="noopener"><strong>Project proposal (PM1)</strong></a>{% else %}<strong>Project proposal (PM1)</strong>{% endif %}<small>Due Sept. 4</small></td></tr>
 
           <tr class="course-week-start course-roadmap"><td>3</td><td>Sept. 7–11</td><td><strong>Neural language models</strong></td><td>—</td><td>—</td></tr>
