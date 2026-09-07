@@ -11,7 +11,7 @@ day2_slides_url: "https://docs.google.com/presentation/d/1IBARWiW3jb8M6kRoNMGRdU
 day3_slides_url: "https://docs.google.com/presentation/d/1t8-NBW3OYgpLPWZcqO9z-ze2nxIhf_CwOPM-4FbQFRw/edit?usp=sharing"
 w2_slides_url: "https://docs.google.com/presentation/d/1SP3gUsdDbn7Tfk4sJUz0zkdULKu60pDgoh3eEi-mxFY/edit?usp=sharing"
 w2d3_slides_url: "https://docs.google.com/presentation/d/1TaNJRUnea12bMJM8sAwgteLY_X67bm2ooP3dxR27GGM/edit?usp=sharing"
-w3d1_slides_url: "https://docs.google.com/document/d/1kLge3HcbuTyX5JXzeJJT9X8o_Xfod7OuDp0x5Uuc1Nw/edit?usp=drive_link"
+w3d1_slides_url: "https://docs.google.com/presentation/d/1cb9aBREV_fC28t6wI7S2XbwjUNURXRIOcCskpcnjfAE/edit?usp=sharing"
 pm1_description_url: "https://docs.google.com/document/d/11qZpMnT9W837qiWsfr5sR6l8rXaI7J0xmVFmOfPDXbI/edit?usp=sharing"
 hw1_url: "https://colab.research.google.com/drive/1jUs4f98pAUknLC0Zm8-OHmj4XDAI4IC2?usp=sharing"
 ---
