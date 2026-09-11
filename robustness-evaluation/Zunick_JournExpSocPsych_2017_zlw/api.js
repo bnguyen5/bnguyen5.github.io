@@ -5,5 +5,5 @@ window.apiFetch = function (path, options = {}) {
   if (token) headers.set("Authorization", `Bearer ${token}`);
   const separator = String(path).includes("?") ? "&" : "?";
   const paper = window.APP_CONFIG.paperId ? `${separator}paper=${encodeURIComponent(window.APP_CONFIG.paperId)}` : "";
-  return fetch(base + path + paper, {...options, headers, credentials: "include"});
+  return fetch(base + path + paper, {...options, headers, credentials: base ? "omit" : "include"});
 };
