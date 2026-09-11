@@ -1,0 +1,45 @@
+const choices=['Yes','No','Unclear','Insufficient information'];
+const questions=[
+ ['claim_alignment','Does this analysis test the focal claim’s population, outcome, and comparison?'],
+ ['method_validity','Is the statistical specification methodologically defensible?'],
+ ['sample_fidelity','Does the executed sample conform to the planned sample and task restrictions?'],
+ ['implementation_fidelity','Does the implementation materially match the plan?'],
+ ['conclusion_validity','Is the reported conclusion supported by the numerical result?'],
+ ['overall_validity','Overall, is this analysis a valid test of the focal claim?']];
+let packet,current=0,responses={},timer;
+const esc=x=>String(x??'Not reported').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt=x=>{if(x===null||x===undefined||x==='')return '<span class="missing">Not reported</span>';if(Array.isArray(x))return `<ul>${x.map(v=>`<li>${fmt(v)}</li>`).join('')}</ul>`;if(typeof x==='object')return `<dl>${Object.entries(x).map(([k,v])=>`<dt>${esc(k.replaceAll('_',' '))}</dt><dd>${fmt(v)}</dd>`).join('')}</dl>`;return esc(x)};
+const row=(k,v)=>`<div class="label">${esc(k)}</div><div class="value">${fmt(v)}</div>`;
+const viewLink=(path,label,analysis='')=>`<a target="_blank" href="viewer.html?path=${encodeURIComponent(path)}&analysis=${encodeURIComponent(analysis)}">${esc(label)}</a>`;
+
+async function load(){const session=await apiFetch('/api/session').then(r=>r.json());if(!session.authenticated){location.href='login.html';return;}packet=await apiFetch('/api/packet').then(r=>r.json());
+ document.querySelector('#title').textContent=packet.case.paper_title||packet.case.case_id;
+ document.querySelector('#claim').textContent=`Focal claim: ${packet.case.focal_claim}`;
+ const savedName=session.annotator||localStorage.getItem('robustness-annotator')||''; document.querySelector('#annotator').value=savedName;document.querySelector('#annotator').readOnly=!!session.annotator;
+ document.querySelector('#annotator').onchange=loadResponses; await loadResponses(); renderNav(); render();}
+async function loadResponses(){const name=document.querySelector('#annotator').value.trim(); localStorage.setItem('robustness-annotator',name); responses={};
+ if(name){const rows=await apiFetch('/api/responses/'+encodeURIComponent(name)).then(r=>r.json()); for(const [id,v] of Object.entries(rows))responses[id]=v.payload;}
+ renderNav(); if(packet)render();}
+function complete(a){const r=responses[a.id]||{};return questions.every(([k])=>r[k]);}
+function renderNav(){if(!packet)return; const done=packet.analyses.filter(complete).length; document.querySelector('#progress').textContent=`${done} of ${packet.analysis_count} complete`;
+ document.querySelector('#nav').innerHTML=packet.analyses.map((a,i)=>`<button data-i="${i}" class="${i===current?'active ':''}${complete(a)?'done':''}">${esc(a.display_name)}</button>`).join('');
+ document.querySelectorAll('#nav button').forEach(b=>b.onclick=()=>{current=+b.dataset.i;renderNav();render();});}
+function render(){const a=packet.analyses[current],r=responses[a.id]||{}; const failed=a.automated_checks.filter(c=>c.status==='fail'),step1=!!r.claim_alignment&&!!r.method_validity,step2=!!r.sample_fidelity&&!!r.implementation_fidelity;
+ const paper=packet.source_materials.paper,sources=packet.source_materials.support_files||[];
+ document.querySelector('#content').innerHTML=`<h2>${esc(a.display_name)}</h2><p><b>Candidate:</b> ${esc(a.candidate_id)} &nbsp; <b>Path:</b> ${esc(a.path_id)}</p>
+ ${failed.length?`<p class="warning"><b>Preflight warning:</b> ${failed.length} automated check(s) failed. The package curator should resolve these before substantive annotation.</p>`:''}
+ <div class="provenance"><b>Staged review:</b> complete each step before execution results are revealed.</div>
+ <section><h3>Step 1 — Review source materials and the proposed analysis</h3><p class="source"><b>Original materials:</b> the focal claim and Task 2 instruction come from all_claims.xlsx.</p><p>${paper?viewLink(paper,'Open original paper'):'Original paper missing'}</p><div class="file-list">${sources.map(f=>`<p>${viewLink(f.path,f.name,a.id)} — ${esc(f.kind)} (${esc(f.extension)})</p>`).join('')||'<p>No supporting files detected.</p>'}</div><div class="grid">${row('Focal claim from SCORE collection',packet.case.focal_claim)}${row('Task instruction',a.task.instruction)}${row('Task goal',a.task.goal)}</div><p class="agent"><b>Source: Planning Agent.</b></p><div class="grid">${row('Summary',a.plan.description)}${row('Model family',a.plan.model_family)}${row('Outcome',a.plan.outcome)}${row('Predictor/contrast',a.plan.predictor)}${row('Sample',a.plan.sample)}${row('Controls',a.plan.controls)}${row('Missing data',a.plan.missing_data)}${row('Outliers',a.plan.outliers)}${row('Model',a.plan.model)}${row('Inference',a.plan.inference)}</div><div class="questions">${question('claim_alignment',questions[0][1],r.claim_alignment)}${question('method_validity',questions[1][1],r.method_validity)}</div></section>
+ ${step1?`<section><h3>Step 2 — Review implementation</h3><p class="agent"><b>Source: agent-written analysis code.</b></p>${a.files.code?`<p>${viewLink(a.files.code,'Open agent-written code',a.id)}</p>`:''}<h4>Automated file and identity checks</h4><div class="checks">${a.automated_checks.map(c=>`<div class="check ${c.status}"><b>${esc(c.status.toUpperCase())}: ${esc(c.label)}</b> — ${esc(c.detail)}</div>`).join('')}</div><div class="questions">${question('sample_fidelity',questions[2][1],r.sample_fidelity)}${question('implementation_fidelity',questions[3][1],r.implementation_fidelity)}</div></section>`:locked(2)}
+ ${step1&&step2?`<section><h3>Step 3 — Review execution and conclusion</h3><p class="agent"><b>Source: Execution Agent report.</b> Assess it against the source materials and plan.</p><div class="grid">${row('Status',a.execution.status)}${row('Executed files',a.execution.executed_files)}${row('Sample size',a.execution.sample_size)}${row('Estimate',a.execution.estimate)}${row('SE',a.execution.standard_error)}${row('p-value',a.execution.p_value)}${row('95% interval',a.execution.confidence_interval)}${row('Result',a.execution.result_text)}${row('Agent fidelity report',a.execution.fidelity)}${row('Agent conclusion',a.execution.conclusion)}</div><div class="questions">${question('conclusion_validity',questions[4][1],r.conclusion_validity)}${question('overall_validity',questions[5][1],r.overall_validity)}
+ <div class="question"><label><b>Issue category and brief evidence</b></label><textarea data-field="explanation" placeholder="Required when answering No">${esc(r.explanation||'')}</textarea></div>
+ <div class="question"><label><b>Severity of the most important problem</b></label><select data-field="severity"><option></option>${['None','Minor','Major','Fatal'].map(x=>`<option ${r.severity===x?'selected':''}>${x}</option>`)}</select></div></div><details><summary>Machine-readable records (optional)</summary>${Object.entries(a.files).filter(([k,v])=>v&&k!=='code').map(([k,v])=>`<p><a target="_blank" href="/files/${encodeURI(v)}">${esc(k)}</a></p>`).join('')}</details></section>`:locked(3)}
+ <div class="actions"><button id="prev">Previous</button><button class="primary" id="next">${complete(a)?(current===packet.analyses.length-1?'Save':'Save and next'):'Save and continue'}</button></div>`;
+ document.querySelectorAll('[data-field]').forEach(x=>x.onchange=input); document.querySelectorAll('textarea[data-field]').forEach(x=>x.oninput=input);
+ document.querySelector('#prev').onclick=()=>{if(current){current--;renderNav();render();}}; document.querySelector('#next').onclick=async()=>{await save();if(complete(a)&&current<packet.analyses.length-1)current++;renderNav();render();};}
+function question(k,q,v){return `<div class="question"><b>${esc(q)}</b><div class="options">${choices.map(x=>`<label><input type="radio" name="${k}" data-field="${k}" value="${x}" ${v===x?'checked':''}> ${x}</label>`).join('')}</div></div>`;}
+function locked(n){return `<section class="locked"><h3>Step ${n} — Locked</h3><p>Complete the preceding step to reveal this section.</p></section>`;}
+function input(e){const a=packet.analyses[current];responses[a.id]=responses[a.id]||{};responses[a.id][e.target.dataset.field]=e.target.value;document.querySelector('#save-state').textContent='Unsaved changes';clearTimeout(timer);timer=setTimeout(save,700);}
+async function save(){const name=document.querySelector('#annotator').value.trim(),a=packet.analyses[current];if(!name){document.querySelector('#save-state').textContent='Enter your name to save';return;}
+ const result=await apiFetch('/api/responses',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({annotator:name,analysis_id:a.id,payload:responses[a.id]||{}})});document.querySelector('#save-state').textContent=result.ok?'Saved':'Save failed';if(result.ok)packet=await apiFetch('/api/packet').then(r=>r.json());renderNav();}
+load();

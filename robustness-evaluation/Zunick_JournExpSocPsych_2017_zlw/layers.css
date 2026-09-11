@@ -1,0 +1,11 @@
+dl { margin: 0; }
+dt { font-weight: 650; margin-top: 7px; text-transform: capitalize; }
+dd { margin: 2px 0 6px 16px; }
+ul { margin: 4px 0; padding-left: 22px; }
+.missing { color: #727b84; font-style: italic; }
+.provenance { background: #edf4fa; border-left: 4px solid #1769aa; padding: 12px; }
+.source, .agent { padding: 9px; border-radius: 5px; }
+.source { background: #e9f5ee; }
+.agent { background: #f2eefa; }
+.locked { color: #67727c; background: #f6f7f8; padding: 16px; border-radius: 6px; }
+.file-list { max-height: 240px; overflow: auto; border: 1px solid #e3e7ea; padding: 0 12px; }
