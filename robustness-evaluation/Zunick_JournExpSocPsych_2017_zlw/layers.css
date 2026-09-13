@@ -8,3 +8,10 @@ ul { margin: 4px 0; padding-left: 22px; }
 .source { background: #e9f5ee; }
 .agent { background: #f2eefa; }
 .file-list { max-height: 240px; overflow: auto; border: 1px solid #e3e7ea; padding: 0 12px; }
+.runner-evidence { margin: 18px 0 24px; padding: 18px; border: 1px solid #b9d4df; border-radius: 9px; background: #f5fafc; }
+.runner-evidence h4 { margin: 0 0 8px; color: #214b61; }
+.evidence-caution { padding: 10px 12px; border-left: 4px solid #c98922; background: #fff6e5; color: #624817; }
+.runner-output { margin-top: 14px; background: white; border: 1px solid #d8e2e7; border-radius: 7px; padding: 10px 14px; }
+.runner-output > summary { cursor: pointer; font-weight: 700; color: #176b91; }
+.runner-output > div { max-height: 520px; overflow: auto; margin-top: 12px; padding: 4px 12px 12px; border-top: 1px solid #e3e9ed; }
+.runner-output dd { overflow-wrap: anywhere; }
