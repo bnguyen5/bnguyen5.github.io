@@ -15,3 +15,12 @@ ul { margin: 4px 0; padding-left: 22px; }
 .runner-output > summary { cursor: pointer; font-weight: 700; color: #176b91; }
 .runner-output > div { max-height: 520px; overflow: auto; margin-top: 12px; padding: 4px 12px 12px; border-top: 1px solid #e3e9ed; }
 .runner-output dd { overflow-wrap: anywhere; }
+.agent-provenance { padding: 12px 14px; border-left: 4px solid #7653a6; border-radius: 0 7px 7px 0; background: #f4f0fa; color: #47355f; }
+.proposal-lead { margin: 18px 0; padding: 16px 18px; border-radius: 8px; background: #eef6f8; color: #234c5e; font-size: 16px; }
+.proposal-grid .value { line-height: 1.55; }
+.proposal-grid code { padding: 3px 6px; border-radius: 4px; background: #eef1f3; color: #263d4a; white-space: normal; }
+.proposal-detail { margin-top: 5px; color: #596a76; font-size: 14px; }
+.proposal-grid hr { margin: 10px 0; border: 0; border-top: 1px solid #e2e8eb; }
+.proposal-details { margin: 18px 0 4px; padding: 12px 15px; border: 1px solid #dbe4e9; border-radius: 8px; background: #fafcfd; }
+.proposal-details > summary { cursor: pointer; font-weight: 700; color: #176b91; }
+.proposal-details h4 { margin: 18px 0 5px; color: #314e5e; }
