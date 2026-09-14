@@ -28,3 +28,4 @@ ul { margin: 4px 0; padding-left: 22px; }
 .mismatch-warning { margin: 16px 0; padding: 14px 16px; border: 2px solid #c24132; border-radius: 8px; background: #fff1ef; color: #76261e; }
 .mismatch-warning > p { margin: 5px 0; }
 .mismatch-warning ul { margin-bottom: 0; }
+.conclusion-context { margin: 20px 0 4px; padding: 14px 16px; border-left: 4px solid #36758e; border-radius: 0 7px 7px 0; background: #eef6f8; color: #294b5c; }
