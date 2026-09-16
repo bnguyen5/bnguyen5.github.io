@@ -435,6 +435,10 @@ table.course-schedule {
   background: rgba(230, 247, 239, 0.45);
 }
 
+.course-schedule td.course-materials-shared {
+  text-align: left;
+}
+
 .course-schedule td[rowspan] small {
   margin-top: 0.35rem;
   font-weight: 600;
