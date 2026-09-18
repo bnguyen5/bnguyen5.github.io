@@ -17,6 +17,7 @@ w4d12_slides_url: "https://drive.google.com/file/d/1xGA2Ba9r2d8zyMxX-MX7AaqfPOuL
 w4d3_notebook_url: "https://colab.research.google.com/drive/19MQiucKGaQIAtELghnBPgasjUQR1AExc?usp=sharing"
 pm1_description_url: "https://docs.google.com/document/d/11qZpMnT9W837qiWsfr5sR6l8rXaI7J0xmVFmOfPDXbI/edit?usp=sharing"
 hw1_url: "https://colab.research.google.com/drive/1jUs4f98pAUknLC0Zm8-OHmj4XDAI4IC2?usp=sharing"
+hw2_url: "https://colab.research.google.com/drive/1YDJIc3IwSSUfpLBbKkpWsb8giiuEVgIm?usp=sharing"
 ---
 
 <div class="course-page">
@@ -151,7 +152,7 @@ hw1_url: "https://colab.research.google.com/drive/1jUs4f98pAUknLC0Zm8-OHmj4XDAI4
 
           <tr class="course-week-start"><td rowspan="3"><strong>6</strong><small>Transformers</small></td><td>Mon., Sept. 28</td><td><strong>Self-attention: queries, keys, and values</strong></td><td>—</td><td>—</td></tr>
           <tr><td>Wed., Sept. 30</td><td><strong>Transformer architecture</strong></td><td>—</td><td>—</td></tr>
-          <tr><td>Fri., Oct. 2</td><td><strong>Machine translation: putting it all together</strong></td><td>—</td><td><strong>Homework 2</strong></td></tr>
+          <tr><td>Fri., Oct. 2</td><td><strong>Machine translation: putting it all together</strong></td><td>—</td><td>{% if page.hw2_url != "" %}<a href="{{ page.hw2_url }}" target="_blank" rel="noopener"><strong>Homework 2</strong></a>{% else %}<strong>Homework 2</strong>{% endif %}</td></tr>
 
           <tr class="course-week-start course-roadmap"><td>7</td><td>Oct. 5–9</td><td><strong>Pretrained transformer models</strong></td><td>—</td><td>—</td></tr>
           <tr class="course-week-start course-roadmap"><td>8</td><td>Oct. 12–16</td><td><strong>Mid-term project presentations</strong></td><td>—</td><td><strong>Baseline report &amp; presentation (PM2)</strong></td></tr>
