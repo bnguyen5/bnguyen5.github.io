@@ -152,7 +152,7 @@ hw2_url: "https://colab.research.google.com/drive/1YDJIc3IwSSUfpLBbKkpWsb8giiuEV
 
           <tr class="course-week-start"><td rowspan="3"><strong>6</strong><small>Transformers</small></td><td>Mon., Sept. 28</td><td><strong>Self-attention: queries, keys, and values</strong></td><td>—</td><td>—</td></tr>
           <tr><td>Wed., Sept. 30</td><td><strong>Transformer architecture</strong></td><td>—</td><td>—</td></tr>
-          <tr><td>Fri., Oct. 2</td><td><strong>Machine translation: putting it all together</strong></td><td>—</td><td>{% if page.hw2_url != "" %}<a href="{{ page.hw2_url }}" target="_blank" rel="noopener"><strong>Homework 2</strong></a>{% else %}<strong>Homework 2</strong>{% endif %}</td></tr>
+          <tr><td>Fri., Oct. 2</td><td><strong>Machine translation: putting it all together</strong></td><td>—</td><td>{% if page.hw2_url != "" %}<a href="{{ page.hw2_url }}" target="_blank" rel="noopener"><strong>Homework 2</strong></a>{% else %}<strong>Homework 2</strong>{% endif %}<small>Due Oct. 2</small></td></tr>
 
           <tr class="course-week-start course-roadmap"><td>7</td><td>Oct. 5–9</td><td><strong>Pretrained transformer models</strong></td><td>—</td><td>—</td></tr>
           <tr class="course-week-start course-roadmap"><td>8</td><td>Oct. 12–16</td><td><strong>Mid-term project presentations</strong></td><td>—</td><td><strong>Baseline report &amp; presentation (PM2)</strong></td></tr>
