@@ -458,7 +458,8 @@ table.course-schedule {
 }
 
 .course-tag--slides::before,
-.course-tag--reading::before {
+.course-tag--reading::before,
+.course-tag--notebook::before {
   margin-right: 0.3em;
   font-weight: 800;
 }
@@ -469,6 +470,10 @@ table.course-schedule {
 
 .course-tag--reading::before {
   content: "R:";
+}
+
+.course-tag--notebook::before {
+  content: "N:";
 }
 
 .course-tag--slides,
@@ -500,6 +505,22 @@ table.course-schedule {
   color: #3d1a78 !important;
   border-color: #98e8c1;
   background: #e6f7ef;
+  text-decoration: none !important;
+}
+
+.course-tag--notebook,
+.course-tag--notebook:visited {
+  color: var(--course-purple) !important;
+  border: 1px solid var(--course-purple);
+  border-radius: 0.3rem;
+  background: #f0ebf8;
+}
+
+.course-tag--notebook:hover,
+.course-tag--notebook:focus {
+  color: #3d1a78 !important;
+  border-color: #5733a0;
+  background: #e3d9f3;
   text-decoration: none !important;
 }
 

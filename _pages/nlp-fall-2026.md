@@ -14,6 +14,7 @@ w2d3_slides_url: "https://docs.google.com/presentation/d/1TaNJRUnea12bMJM8sAwgte
 w3d12_slides_url: "https://drive.google.com/file/d/1V_j3LXtER6r_iBlSzEc0eg8dTqzRAeAs/view?usp=sharing"
 w3d3_slides_url: "https://drive.google.com/file/d/1smrin3Z-W09ERO6bbb7uQKqR90v0AhYl/view?usp=sharing"
 w4d12_slides_url: "https://drive.google.com/file/d/1xGA2Ba9r2d8zyMxX-MX7AaqfPOuLU51K/view?usp=sharing"
+w4d3_notebook_url: "https://colab.research.google.com/drive/19MQiucKGaQIAtELghnBPgasjUQR1AExc?usp=sharing"
 pm1_description_url: "https://docs.google.com/document/d/11qZpMnT9W837qiWsfr5sR6l8rXaI7J0xmVFmOfPDXbI/edit?usp=sharing"
 hw1_url: "https://colab.research.google.com/drive/1jUs4f98pAUknLC0Zm8-OHmj4XDAI4IC2?usp=sharing"
 ---
@@ -115,6 +116,7 @@ hw1_url: "https://colab.research.google.com/drive/1jUs4f98pAUknLC0Zm8-OHmj4XDAI4
       <span class="course-resource-legend-label">Resources:</span>
       <span class="course-tag course-tag--slides course-tag--legend">Slides</span>
       <span class="course-tag course-tag--reading course-tag--legend">Reading</span>
+      <span class="course-tag course-tag--notebook course-tag--legend">Notebook</span>
     </div>
 
     <div class="course-table-wrap">
@@ -142,7 +144,7 @@ hw1_url: "https://colab.research.google.com/drive/1jUs4f98pAUknLC0Zm8-OHmj4XDAI4
           <tr><td>Fri., Sept. 11</td><td><strong>Sequence labeling: POS tagging and NER</strong></td><td>{% if page.w3d3_slides_url != "" %}<a class="course-tag course-tag--slides" href="{{ page.w3d3_slides_url }}" target="_blank" rel="noopener">W3D3</a>{% else %}<span class="course-tag course-tag--slides">W3D3</span>{% endif %} <a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/18.pdf" target="_blank" rel="noopener">SLP C18 (§§18.1–18.3, 18.6)</a> <a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/18.pdf#page=8" target="_blank" rel="noopener">Optional: §§18.4–18.5</a></td><td>—</td></tr>
           <tr class="course-week-start"><td rowspan="3"><strong>4</strong><small>Syntax and parsing</small></td><td>Mon., Sept. 14</td><td><strong>Constituency parsing and CFGs</strong></td><td class="course-materials-shared" rowspan="2">{% if page.w4d12_slides_url != "" %}<a class="course-tag course-tag--slides" href="{{ page.w4d12_slides_url }}" target="_blank" rel="noopener">W4D1–2</a>{% else %}<span class="course-tag course-tag--slides">W4D1–2</span>{% endif %} <a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/19.pdf" target="_blank" rel="noopener">SLP C19</a></td><td>—</td></tr>
           <tr><td>Wed., Sept. 16</td><td><strong>CKY parsing</strong></td><td>—</td></tr>
-          <tr><td>Fri., Sept. 18</td><td><strong>Hugging Face tutorial</strong></td><td>—</td><td>{% if page.hw1_url != "" %}<a href="{{ page.hw1_url }}" target="_blank" rel="noopener"><strong>Homework 1</strong></a>{% else %}<strong>Homework 1</strong>{% endif %}<small>Due Sept. 18</small></td></tr>
+          <tr><td>Fri., Sept. 18</td><td><strong>Hugging Face workshop</strong></td><td>{% if page.w4d3_notebook_url != "" %}<a class="course-tag course-tag--notebook" href="{{ page.w4d3_notebook_url }}" target="_blank" rel="noopener">W4D3</a>{% else %}<span class="course-tag course-tag--notebook">W4D3</span>{% endif %}</td><td>{% if page.hw1_url != "" %}<a href="{{ page.hw1_url }}" target="_blank" rel="noopener"><strong>Homework 1</strong></a>{% else %}<strong>Homework 1</strong>{% endif %}<small>Due Sept. 18</small></td></tr>
           <tr class="course-week-start"><td rowspan="3"><strong>5</strong><small>Representations and sequence-to-sequence models</small></td><td>Mon., Sept. 21</td><td><strong>Word embeddings</strong></td><td><a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/5.pdf" target="_blank" rel="noopener">SLP C5</a></td><td>—</td></tr>
           <tr><td>Wed., Sept. 23</td><td><strong>Encoder–decoder models</strong></td><td><a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/14.pdf" target="_blank" rel="noopener">SLP C14 (§§14.7–14.8)</a></td><td>—</td></tr>
           <tr><td>Fri., Sept. 25</td><td><strong>Attention for sequence-to-sequence models</strong></td><td>—</td><td>—</td></tr>
