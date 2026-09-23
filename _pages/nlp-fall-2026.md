@@ -153,8 +153,8 @@ hw2_url: "https://colab.research.google.com/drive/1YDJIc3IwSSUfpLBbKkpWsb8giiuEV
           <tr><td>Wed., Sept. 23</td><td><strong>Encoder–decoder models</strong></td><td><a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/14.pdf" target="_blank" rel="noopener">SLP C14 (§§14.7–14.8)</a></td><td>—</td></tr>
           <tr><td>Fri., Sept. 25</td><td><strong>Attention for sequence-to-sequence models</strong></td><td>—</td><td>—</td></tr>
 
-          <tr class="course-week-start"><td rowspan="3"><strong>6</strong><small>Transformers</small></td><td>Mon., Sept. 28</td><td><strong>Self-attention: queries, keys, and values</strong></td><td>—</td><td>—</td></tr>
-          <tr><td>Wed., Sept. 30</td><td><strong>Transformer architecture</strong></td><td>—</td><td>—</td></tr>
+          <tr class="course-week-start"><td rowspan="3"><strong>6</strong><small>Transformers</small></td><td>Mon., Sept. 28</td><td><strong>Self-attention: queries, keys, and values</strong></td><td class="course-materials-shared" rowspan="2"><a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/7.pdf" target="_blank" rel="noopener">SLP C7 (through §7.5)</a></td><td>—</td></tr>
+          <tr><td>Wed., Sept. 30</td><td><strong>Transformer architecture</strong></td><td>—</td></tr>
           <tr><td>Fri., Oct. 2</td><td><strong>Machine translation: putting it all together</strong></td><td>—</td><td>{% if page.hw2_url != "" %}<a href="{{ page.hw2_url }}" target="_blank" rel="noopener"><strong>Homework 2</strong></a>{% else %}<strong>Homework 2</strong>{% endif %}<small>Due Oct. 2</small></td></tr>
 
           <tr class="course-week-start course-roadmap"><td>7</td><td>Oct. 5–9</td><td><strong>Pretrained transformer models</strong></td><td>—</td><td>—</td></tr>
