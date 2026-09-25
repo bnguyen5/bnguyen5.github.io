@@ -87,6 +87,11 @@ color: #3d1a78 !important;
 }
 
 .course-page {
+  /* Own side gutter on top of #main's 16-18px, and a fixed max width so the
+     theme's 925px -> 1280px content-width jump doesn't stretch the page. */
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 clamp(6px, 2.5vw, 30px);
   --course-primary: #078d70;
   --course-light: #e6f7ef;
   --course-purple: #3d1a78;
@@ -219,7 +224,7 @@ color: #3d1a78 !important;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1px;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   overflow: hidden;
   border: 1px solid var(--course-border);
   border-top: 0;
@@ -245,7 +250,7 @@ color: #3d1a78 !important;
 }
 
 .course-section {
-  padding: 1rem 0 2.5rem;
+  padding: 0.75rem 0 1.75rem;
   scroll-margin-top: 5rem;
 }
 
@@ -253,7 +258,7 @@ color: #3d1a78 !important;
   display: flex;
   align-items: flex-start;
   gap: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.1rem;
 }
 
 .course-section-heading > span {
@@ -361,7 +366,7 @@ table.course-schedule {
 }
 
 .course-schedule th {
-  padding: 0.9rem 1rem;
+  padding: 0.7rem 0.85rem;
   color: #fff;
   border: 0;
   background: var(--course-purple);
@@ -371,7 +376,8 @@ table.course-schedule {
 }
 
 .course-schedule td {
-  padding: 0.65rem 1rem;
+  padding: 0.45rem 0.85rem;
+  line-height: 1.45;
   vertical-align: top;
   border-right: 0;
   border-bottom: 1px solid var(--course-border);
@@ -447,7 +453,7 @@ table.course-schedule {
 
 .course-tag {
   display: inline-flex;
-  padding: 0.3rem 0.6rem;
+  padding: 0.2rem 0.5rem;
   margin: 0.1rem 0.2rem 0.1rem 0;
   align-items: center;
   font-size: 0.7rem;
