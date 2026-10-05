@@ -29,6 +29,7 @@ pm1_description_url: "https://docs.google.com/document/d/11qZpMnT9W837qiWsfr5sR6
 pm2_description_url: "https://docs.google.com/document/d/11qZpMnT9W837qiWsfr5sR6l8rXaI7J0xmVFmOfPDXbI/edit?tab=t.qo0sjgf5taez#heading=h.3at9u9s4e0vp"
 hw1_url: "https://colab.research.google.com/drive/1jUs4f98pAUknLC0Zm8-OHmj4XDAI4IC2?usp=sharing"
 hw2_url: "https://colab.research.google.com/drive/1YDJIc3IwSSUfpLBbKkpWsb8giiuEVgIm?usp=sharing"
+hw3_url: "https://colab.research.google.com/drive/1Ce0Bu4mOhu9plEmfXM0SOrF13Y0BQcny?usp=sharing"
 ---
 
 <div class="course-page">
@@ -174,7 +175,7 @@ hw2_url: "https://colab.research.google.com/drive/1YDJIc3IwSSUfpLBbKkpWsb8giiuEV
 
           <tr class="course-week-start"><td rowspan="3"><strong>9</strong><small>Pretrained models</small></td><td>Mon., Oct. 26</td><td><strong>Masked language models (BERT)</strong></td><td><a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/9.pdf" target="_blank" rel="noopener">SLP C9</a></td><td>—</td></tr>
           <tr><td>Wed., Oct. 28</td><td><strong>Fine-tuning pretrained models</strong></td><td>—</td><td>—</td></tr>
-          <tr><td>Fri., Oct. 30</td><td><strong>Training LLMs at scale</strong></td><td>—</td><td><strong>Homework 3</strong><small>Due Oct. 30</small></td></tr>
+          <tr><td>Fri., Oct. 30</td><td><strong>Training LLMs at scale</strong></td><td>—</td><td>{% if page.hw3_url != "" %}<a href="{{ page.hw3_url }}" target="_blank" rel="noopener"><strong>Homework 3</strong></a>{% else %}<strong>Homework 3</strong>{% endif %}<small>Due Oct. 30</small></td></tr>
           <tr class="course-week-start course-roadmap"><td>10</td><td>Nov. 2–6</td><td><strong>LLM post-training</strong></td><td>—</td><td>—</td></tr>
           <tr class="course-week-start course-roadmap"><td>11</td><td>Nov. 9–13</td><td><strong>Applied semantics and retrieval</strong></td><td>—</td><td><strong>Homework 4</strong></td></tr>
           <tr class="course-week-start course-roadmap"><td>12</td><td>Nov. 16–20</td><td><strong>Evaluation and interpretability</strong></td><td>—</td><td>—</td></tr>
