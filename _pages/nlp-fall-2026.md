@@ -181,15 +181,15 @@ hw3_url: "https://colab.research.google.com/drive/1Ce0Bu4mOhu9plEmfXM0SOrF13Y0BQ
           <tr><td>Wed., Nov. 4</td><td><strong>Reinforcement learning for LLMs I</strong></td><td>—</td></tr>
           <tr><td>Fri., Nov. 6</td><td><strong>Reinforcement learning for LLMs II</strong></td><td>—</td></tr>
 
-          <tr class="course-week-start"><td rowspan="3"><strong>11</strong><small>Retrieval and agents</small></td><td>Mon., Nov. 9</td><td><strong>Dense retrieval</strong></td><td>—</td><td>—</td></tr>
+          <tr class="course-week-start"><td rowspan="3"><strong>11</strong><small>Retrieval and tool use</small></td><td>Mon., Nov. 9</td><td><strong>Dense retrieval</strong></td><td>—</td><td>—</td></tr>
           <tr><td>Wed., Nov. 11</td><td><strong>Retrieval-augmented generation</strong></td><td>—</td><td>—</td></tr>
-          <tr><td>Fri., Nov. 13</td><td><strong>LLM agents</strong></td><td>—</td><td><strong>Homework 4</strong><small>Due Nov. 13</small></td></tr>
+          <tr><td>Fri., Nov. 13</td><td><strong>Tool use</strong></td><td>—</td><td><strong>Homework 4</strong><small>Due Nov. 13</small></td></tr>
 
           <tr class="course-week-start"><td rowspan="3"><strong>12</strong><small>Evaluation and interpretability</small></td><td>Mon., Nov. 16</td><td><strong>Evaluating LLMs</strong></td><td>—</td><td>—</td></tr>
           <tr><td>Wed., Nov. 18</td><td><strong>Interpretability I</strong></td><td>—</td><td>—</td></tr>
           <tr><td>Fri., Nov. 20</td><td><strong>Interpretability II</strong></td><td>—</td><td>—</td></tr>
 
-          <tr class="course-week-start"><td><strong>13</strong><small>Responsible NLP</small></td><td>Mon., Nov. 23</td><td><strong>Responsible NLP</strong></td><td>—</td><td><strong>Homework 5</strong><small>Due this week</small></td></tr>
+          <tr class="course-week-start"><td><strong>13</strong><small>Responsible NLP</small></td><td>Mon., Nov. 23</td><td><strong>Responsible NLP</strong></td><td>—</td><td><strong>Homework 5</strong><small>Due Tue., Nov. 24</small></td></tr>
 
           <tr class="course-break"><td>—</td><td>Nov. 25–29</td><td><strong>Thanksgiving (no class)</strong></td><td>—</td><td>—</td></tr>
 
