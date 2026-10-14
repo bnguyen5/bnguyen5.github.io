@@ -177,14 +177,25 @@ hw3_url: "https://colab.research.google.com/drive/1Ce0Bu4mOhu9plEmfXM0SOrF13Y0BQ
           <tr class="course-week-start"><td rowspan="3"><strong>9</strong><small>Pretrained models</small></td><td>Mon., Oct. 26</td><td><strong>Pretraining (Cont)</strong></td><td class="course-materials-shared" rowspan="3"><a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/9.pdf" target="_blank" rel="noopener">SLP C9</a> <a class="course-tag course-tag--reading" href="https://aclanthology.org/N19-1423.pdf" target="_blank" rel="noopener">Optional: BERT</a> <a class="course-tag course-tag--reading" href="https://aclanthology.org/2020.acl-main.703.pdf" target="_blank" rel="noopener">Optional: BART</a> <a class="course-tag course-tag--reading" href="https://jmlr.org/papers/volume21/20-074/20-074.pdf" target="_blank" rel="noopener">Optional: T5</a> <a class="course-tag course-tag--reading" href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf" target="_blank" rel="noopener">Optional: GPT-2</a></td><td>—</td></tr>
           <tr><td>Wed., Oct. 28</td><td><strong>Fine-tuning pretrained models</strong></td><td>—</td></tr>
           <tr><td>Fri., Oct. 30</td><td><strong>Training LLMs at scale</strong></td><td>{% if page.hw3_url != "" %}<a href="{{ page.hw3_url }}" target="_blank" rel="noopener"><strong>Homework 3</strong></a>{% else %}<strong>Homework 3</strong>{% endif %}<small>Due Oct. 30</small></td></tr>
-          <tr class="course-week-start course-roadmap"><td>10</td><td>Nov. 2–6</td><td><strong>LLM post-training</strong></td><td><a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/8.pdf" target="_blank" rel="noopener">SLP C8</a></td><td>—</td></tr>
-          <tr class="course-week-start course-roadmap"><td>11</td><td>Nov. 9–13</td><td><strong>Applied semantics and retrieval</strong></td><td>—</td><td><strong>Homework 4</strong></td></tr>
-          <tr class="course-week-start course-roadmap"><td>12</td><td>Nov. 16–20</td><td><strong>Evaluation and interpretability</strong></td><td>—</td><td>—</td></tr>
-          <tr class="course-week-start course-roadmap"><td>13</td><td>Mon., Nov. 23</td><td><strong>Responsible NLP</strong></td><td>—</td><td><strong>Homework 5</strong></td></tr>
+          <tr class="course-week-start"><td rowspan="3"><strong>10</strong><small>LLM post-training</small></td><td>Mon., Nov. 2</td><td><strong>Instruction tuning</strong></td><td class="course-materials-shared" rowspan="3"><a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/8.pdf" target="_blank" rel="noopener">SLP C8</a> <a class="course-tag course-tag--reading" href="https://arxiv.org/abs/2203.02155" target="_blank" rel="noopener">InstructGPT</a> <a class="course-tag course-tag--reading" href="https://arxiv.org/abs/2305.18290" target="_blank" rel="noopener">Optional: DPO</a> <a class="course-tag course-tag--reading" href="https://arxiv.org/abs/2501.12948" target="_blank" rel="noopener">Optional: DeepSeek-R1</a></td><td>—</td></tr>
+          <tr><td>Wed., Nov. 4</td><td><strong>Reinforcement learning for LLMs I</strong></td><td>—</td></tr>
+          <tr><td>Fri., Nov. 6</td><td><strong>Reinforcement learning for LLMs II</strong></td><td>—</td></tr>
 
-          <tr class="course-break"><td>—</td><td>Nov. 25–29</td><td><strong>Thanksgiving holiday</strong></td><td>—</td><td>—</td></tr>
+          <tr class="course-week-start"><td rowspan="3"><strong>11</strong><small>Retrieval and agents</small></td><td>Mon., Nov. 9</td><td><strong>Dense retrieval</strong></td><td>—</td><td>—</td></tr>
+          <tr><td>Wed., Nov. 11</td><td><strong>Retrieval-augmented generation</strong></td><td>—</td><td>—</td></tr>
+          <tr><td>Fri., Nov. 13</td><td><strong>LLM agents</strong></td><td>—</td><td><strong>Homework 4</strong><small>Due Nov. 13</small></td></tr>
 
-          <tr class="course-week-start course-roadmap"><td>14</td><td>Nov. 30–Dec. 4</td><td><strong>Multilingual and low-resource NLP</strong></td><td>—</td><td>—</td></tr>
+          <tr class="course-week-start"><td rowspan="3"><strong>12</strong><small>Evaluation and interpretability</small></td><td>Mon., Nov. 16</td><td><strong>Evaluating LLMs</strong></td><td>—</td><td>—</td></tr>
+          <tr><td>Wed., Nov. 18</td><td><strong>Interpretability I</strong></td><td>—</td><td>—</td></tr>
+          <tr><td>Fri., Nov. 20</td><td><strong>Interpretability II</strong></td><td>—</td><td>—</td></tr>
+
+          <tr class="course-week-start"><td><strong>13</strong><small>Responsible NLP</small></td><td>Mon., Nov. 23</td><td><strong>Responsible NLP</strong></td><td>—</td><td><strong>Homework 5</strong><small>Due this week</small></td></tr>
+
+          <tr class="course-break"><td>—</td><td>Nov. 25–29</td><td><strong>Thanksgiving (no class)</strong></td><td>—</td><td>—</td></tr>
+
+          <tr class="course-week-start"><td rowspan="3"><strong>14</strong><small>Multilingual and multimodal NLP</small></td><td>Mon., Nov. 30</td><td><strong>Multilingual and low-resource NLP</strong></td><td>—</td><td>—</td></tr>
+          <tr><td>Wed., Dec. 2</td><td><strong>Multimodal models</strong></td><td>—</td><td>—</td></tr>
+          <tr><td>Fri., Dec. 4</td><td><strong>Buffer</strong></td><td>—</td><td>—</td></tr>
           <tr class="course-week-start"><td rowspan="3">15</td><td>Mon., Dec. 7</td><td><strong>Poster session</strong> - joint evening session with CSE60556 <em>Large Language Model</em>; pizza and beverages provided. The regular daytime class will be canceled; details TBA.</td><td>—</td><td><strong>Poster (PM3)</strong><small>Due Dec. 7</small></td></tr>
           <tr><td>Wed., Dec. 9</td><td><strong>Final report working session</strong></td><td>—</td><td>—</td></tr>
           <tr class="course-reading-day"><td>Thu., Dec. 10</td><td><strong>Reading days begin</strong></td><td>—</td><td>—</td></tr>
