@@ -15,9 +15,10 @@ With a strong interest in Natural Language Processing (NLP) and Machine Learning
 
 # Education
 
+- **Ph.D. in Computer Science and Engineering**, University of Notre Dame, expected May 2027
 - **M.S. in Computer Science and Engineering**, University of Notre Dame, January 2026
 - **B.A. in Computer Science**, The College of Wooster, 2022
-  - Double minor in Data Science and Communication Studies
+  - Minors: Statistical and Data Sciences; Communication Studies
 
 # What's new
 

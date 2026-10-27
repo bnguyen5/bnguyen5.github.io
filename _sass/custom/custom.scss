@@ -829,3 +829,21 @@ table.course-honor-table {
     margin-left: 0;
   }
 }
+
+/* CV page: embedded PDF viewer. Hidden on phones, where embedded PDFs render
+   poorly; the Download button opens the PDF in the phone's own viewer. */
+.cv-viewer {
+  display: block;
+  width: 100%;
+  height: calc(100vh - 12rem);
+  min-height: 600px;
+  margin-top: 1.25rem;
+  border: 1px solid #dfe7e4;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .cv-viewer {
+    display: none;
+  }
+}
