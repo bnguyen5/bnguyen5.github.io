@@ -35,6 +35,7 @@ pm2_description_url: "https://docs.google.com/document/d/11qZpMnT9W837qiWsfr5sR6
 hw1_url: "https://colab.research.google.com/drive/1jUs4f98pAUknLC0Zm8-OHmj4XDAI4IC2?usp=sharing"
 hw2_url: "https://colab.research.google.com/drive/1YDJIc3IwSSUfpLBbKkpWsb8giiuEVgIm?usp=sharing"
 hw3_url: "https://colab.research.google.com/drive/1Ce0Bu4mOhu9plEmfXM0SOrF13Y0BQcny?usp=sharing"
+hw4_url: "https://colab.research.google.com/drive/1yKK6oBWzoim8YYV-i1Ct0ebnB7zfzCCO?usp=sharing"
 ---
 
 <div class="course-page">
@@ -187,7 +188,7 @@ hw3_url: "https://colab.research.google.com/drive/1Ce0Bu4mOhu9plEmfXM0SOrF13Y0BQ
 
           <tr class="course-week-start"><td rowspan="3"><strong>11</strong><small>Retrieval and tool use</small></td><td>Mon., Nov. 9</td><td><strong>Dense retrieval</strong></td><td>—</td><td>—</td></tr>
           <tr><td>Wed., Nov. 11</td><td><strong>Retrieval-augmented generation</strong></td><td>—</td><td>—</td></tr>
-          <tr><td>Fri., Nov. 13</td><td><strong>Tool use</strong></td><td>—</td><td><strong>Homework 4</strong><small>Due Nov. 13</small></td></tr>
+          <tr><td>Fri., Nov. 13</td><td><strong>Tool use</strong></td><td>—</td><td>{% if page.hw4_url != "" %}<a href="{{ page.hw4_url }}" target="_blank" rel="noopener"><strong>Homework 4</strong></a>{% else %}<strong>Homework 4</strong>{% endif %}<small>Due Nov. 13</small></td></tr>
 
           <tr class="course-week-start"><td rowspan="3"><strong>12</strong><small>Evaluation and interpretability</small></td><td>Mon., Nov. 16</td><td><strong>Evaluating LLMs</strong></td><td>—</td><td>—</td></tr>
           <tr><td>Wed., Nov. 18</td><td><strong>Interpretability I</strong></td><td>—</td><td>—</td></tr>
