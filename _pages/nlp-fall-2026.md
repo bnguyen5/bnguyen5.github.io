@@ -187,15 +187,15 @@ hw4_url: "https://colab.research.google.com/drive/1yKK6oBWzoim8YYV-i1Ct0ebnB7zfz
           <tr class="course-current-week"><td>Wed., Nov. 4</td><td><strong>Reinforcement learning for LLMs I</strong></td><td>—</td></tr>
           <tr class="course-current-week"><td>Fri., Nov. 6</td><td><strong>Reinforcement learning for LLMs II</strong></td><td>—</td></tr>
 
-          <tr class="course-week-start"><td rowspan="3"><strong>11</strong><small>Retrieval and tool use</small></td><td>Mon., Nov. 9</td><td><strong>Dense retrieval</strong></td><td>—</td><td>—</td></tr>
-          <tr><td>Wed., Nov. 11</td><td><strong>Retrieval-augmented generation</strong></td><td>—</td><td>—</td></tr>
-          <tr><td>Fri., Nov. 13</td><td><strong>Tool use</strong></td><td>—</td><td>{% if page.hw4_url != "" %}<a href="{{ page.hw4_url }}" target="_blank" rel="noopener"><strong>Homework 4</strong></a>{% else %}<strong>Homework 4</strong>{% endif %}<small>Due Nov. 13</small></td></tr>
+          <tr class="course-week-start"><td rowspan="3"><strong>11</strong><small>Retrieval and agents</small></td><td>Mon., Nov. 9</td><td><strong>Dense retrieval</strong></td><td class="course-materials-shared" rowspan="2"><a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/11.pdf" target="_blank" rel="noopener">SLP C11</a> <a class="course-tag course-tag--reading" href="https://arxiv.org/abs/2004.04906" target="_blank" rel="noopener">Optional: DPR</a> <a class="course-tag course-tag--reading" href="https://arxiv.org/abs/2005.11401" target="_blank" rel="noopener">Optional: RAG</a></td><td>—</td></tr>
+          <tr><td>Wed., Nov. 11</td><td><strong>Retrieval-augmented generation</strong></td><td>—</td></tr>
+          <tr><td>Fri., Nov. 13</td><td><strong>LLM agents</strong></td><td><a class="course-tag course-tag--reading" href="https://arxiv.org/abs/2210.03629" target="_blank" rel="noopener">ReAct (§§1–3)</a> <a class="course-tag course-tag--reading" href="https://arxiv.org/abs/2302.04761" target="_blank" rel="noopener">Optional: Toolformer</a></td><td>{% if page.hw4_url != "" %}<a href="{{ page.hw4_url }}" target="_blank" rel="noopener"><strong>Homework 4</strong></a>{% else %}<strong>Homework 4</strong>{% endif %}<small>Due Nov. 13</small></td></tr>
 
-          <tr class="course-week-start"><td rowspan="3"><strong>12</strong><small>Evaluation and interpretability</small></td><td>Mon., Nov. 16</td><td><strong>Evaluating LLMs</strong></td><td>—</td><td>—</td></tr>
-          <tr><td>Wed., Nov. 18</td><td><strong>Interpretability I</strong></td><td>—</td><td>—</td></tr>
-          <tr><td>Fri., Nov. 20</td><td><strong>Interpretability II</strong></td><td>—</td><td>—</td></tr>
+          <tr class="course-week-start"><td rowspan="3"><strong>12</strong><small>Evaluation and interpretability</small></td><td>Mon., Nov. 16</td><td><strong>Evaluating LLMs</strong></td><td><a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/1.pdf" target="_blank" rel="noopener">SLP C1 (§1.9)</a></td><td>—</td></tr>
+          <tr><td>Wed., Nov. 18</td><td><strong>Interpretability I</strong></td><td class="course-materials-shared" rowspan="2"><a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/10.pdf" target="_blank" rel="noopener">SLP C10</a></td><td>—</td></tr>
+          <tr><td>Fri., Nov. 20</td><td><strong>Interpretability II</strong></td><td>—</td></tr>
 
-          <tr class="course-week-start"><td><strong>13</strong><small>Responsible NLP</small></td><td>Mon., Nov. 23</td><td><strong>Responsible NLP</strong></td><td>—</td><td><strong>Homework 5</strong><small>Due Tue., Nov. 24</small></td></tr>
+          <tr class="course-week-start"><td><strong>13</strong><small>Responsible NLP</small></td><td>Mon., Nov. 23</td><td><strong>Responsible NLP</strong></td><td><a class="course-tag course-tag--reading" href="https://web.stanford.edu/~jurafsky/slp3/1.pdf" target="_blank" rel="noopener">SLP C1 (§1.10)</a></td><td><strong>Homework 5</strong><small>Due Tue., Nov. 24</small></td></tr>
 
           <tr class="course-break"><td>—</td><td>Nov. 25–29</td><td><strong>Thanksgiving (no class)</strong></td><td>—</td><td>—</td></tr>
 
