@@ -1,0 +1,49 @@
+main { grid-template-columns: 210px minmax(0, 1fr); max-width: 1560px; }
+article { padding: 24px; }
+.plan-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 22px; align-items: start; margin-top: 18px; }
+.plan-column { position: sticky; top: 16px; max-height: calc(100vh - 32px); overflow: auto; padding: 18px; border: 1px solid #dfe7ec; border-radius: 10px; background: #fafcfd; }
+.plan-column h3 { margin-top: 0; }
+.plan-column .grid { display: block; }
+.plan-column .label { margin-top: 14px; font-weight: 700; color: #314e5e; }
+.plan-column .value { overflow-wrap: anywhere; }
+.plan-column code { padding: 3px 6px; border-radius: 4px; background: #eef1f3; white-space: pre-wrap; }
+.form-column { display: grid; gap: 18px; min-width: 0; }
+.form-column .review-card { margin: 0; padding: 20px; }
+.claim-reminder { margin: 0 0 12px; padding: 10px 14px; border-left: 4px solid #3c829a; border-radius: 0 7px 7px 0; background: #eef6f8; color: #214b61; }
+.element { padding: 12px 0; border-top: 1px solid #e6ecf0; }
+.element-label { font-weight: 700; color: #203d55; }
+.element-text { margin: 2px 0 8px; white-space: pre-line; }
+.choices { display: flex; flex-wrap: wrap; gap: 6px 16px; }
+.choices label { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
+.category { padding: 14px 0; border-top: 1px solid #e6ecf0; }
+.category-title { margin: 0 0 8px; font-weight: 700; color: #203d55; }
+.ticks { display: grid; gap: 8px; margin: 12px 0 0; padding: 12px 14px; border-radius: 8px; background: #f6f9fb; }
+.ticks label { display: grid; grid-template-columns: 18px minmax(0, 1fr); gap: 8px; cursor: pointer; }
+.ticks input { margin-top: 4px; }
+.form-column textarea { display: block; width: 100%; min-height: 62px; margin-top: 8px; padding: 9px; border: 1px solid #c9d5dc; border-radius: 7px; font: inherit; }
+.instructions { margin-bottom: 8px; padding: 10px 14px; border: 1px solid #dbe4e9; border-radius: 8px; background: #fafcfd; }
+.instructions > summary { cursor: pointer; font-weight: 700; color: #176b91; }
+.instructions p { margin: 8px 0; }
+.ticks-label { margin: 0; font-size: 13px; font-weight: 700; color: #4a5a6a; }
+.caveat { margin: 10px 0; padding: 12px 14px; border-left: 4px solid #c98922; border-radius: 0 7px 7px 0; background: #fff6e5; color: #624817; font-weight: 700; }
+.problems { margin: 10px 0 0; padding: 10px 14px 10px 30px; border-radius: 7px; background: #fff1ef; color: #76261e; }
+.submit-row { display: flex; align-items: center; gap: 14px; }
+.prototype-tag { padding: 1px 8px; border-radius: 999px; background: #ffffff30; font-size: 12px; }
+/* Wide screens: the page stays still and the plan and the questions scroll separately. */
+@media (min-width: 1101px) {
+  body.plan-mode { display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+  body.plan-mode header { padding: 10px 24px; }
+  body.plan-mode h1 { font-size: 20px; }
+  body.plan-mode main { flex: 1; min-height: 0; width: 100%; max-width: none; margin: 12px 0; padding: 0 16px; gap: 16px; }
+  body.plan-mode article { display: flex; flex-direction: column; min-height: 0; padding: 14px 18px; overflow: hidden; }
+  body.plan-mode h2 { font-size: 20px; }
+  body.plan-mode .plan-layout { flex: 1; min-height: 0; margin-top: 8px; align-items: stretch; }
+  body.plan-mode .plan-column { position: static; max-height: none; overflow: auto; }
+  body.plan-mode .form-column { overflow: auto; align-content: start; padding-right: 8px; }
+}
+@media (max-width: 1100px) {
+  main { grid-template-columns: minmax(0, 1fr); }
+  aside { position: static; }
+  .plan-layout { grid-template-columns: minmax(0, 1fr); }
+  .plan-column { position: static; max-height: none; }
+}
